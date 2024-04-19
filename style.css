@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins;
+    background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+  
+.wrapper{
+    border: 3px solid black;
+    width: 60vw;
+    height: 20vh;
+    margin-left: 20vw;
+    margin-top:40vh ;
+}
+.date{
+    height: 5vh;
+    padding: 5px;
+    font-size: 1.8em;
+    text-align: center;
+}
+.time{
+    height: 15vh;
+    padding: 5px;
+    text-align: center;
+    font-size: 4em;
+}
+#ampm{
+    font-size: .6em;
+}
